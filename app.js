@@ -17,14 +17,12 @@ app.use(express.static("public"));
 app.post('/', (req, res) => {
     console.log(req.body.command);
     command[0] = req.body.command;
-    const remoteAddress = req.connection.remoteAddress;
-
-        res.send(command[0]);
+    res.send(command[0]);
     
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + "/index.html");
+    res.render("index.ejs");
 });
 
 
