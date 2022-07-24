@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'ichigojam';
+    src: url("../font/IchigoJam-1.4.woff")format('woff');
+  }
+
+  @font-face {
+    font-family: 'kodomo';
+    src: url("../font/kodomo.woff")format('woff');
+  }
+  
+body {
+  margin:15px 15px 0 15px;
+}
+
+ /* ドット斜め */
+ .bg_skew_dot{
+  background-color: rgb(255, 243, 243);
+  background-image:
+  radial-gradient(#ffffff 20%, transparent 20%),
+  radial-gradient(#fffbd5 20%, transparent 50%);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+/* ドット色違い */
+.is-mix{
+  background-image:
+  radial-gradient(#fff0f0 20%, transparent 20%),
+  radial-gradient(#ffe3e3 20%, transparent 20%);
+}
+
+.images{
+  display:flex;
+}
+
+  .title{
+    margin: 10px 0 10px 0;
+    width: 70%;
+    height: 70%;
+  }
+
+  .logo{
+    margin:0 0 0 -5px;
+    width:12%;
+    height:12%;
+    
+  }
+
+.text{
+  font-family: "kodomo";
+  color:rgb(54, 54, 54);
+}
+
+.p {
+  margin: 0 15px 0 15px;
+  
+}
+
+  .textarea {
+    resize:none;
+    margin: 0 20px 0 0;
+    
+  }
+
+  .ichigojam{
+    font-family: "ichigojam";
+    white-space: pre-wrap;
+    max-width: 450px;
+    
+    background: rgb(77, 6, 6);
+    /* background: linear-gradient(0deg, rgba(179,28,151,1) 0%, rgba(244,111,168,1) 100%); */
+      border-radius : 10px; 
+      color: white;
+      padding: .5em 1em;
+      margin:10px 0 0 0 ;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      font-size: 85%;
+      word-break: break-all;
+  }
+
+  .ichigojam:hover{
+    background:black;
+}
+  
+.id {
+  background: rgb(77, 6, 6);
+  font-family: "kodomo";
+  padding: 0 0 0 7px ;
+  color:white;
+  font-size     : 15px;  
+  border-radius : 10%; 
+
+} 
+
+.id:hover{
+  background:black;
+}
+
+::placeholder {
+  color: rgb(201, 161, 161);
+  font-family: "kodomo";
+  font-size     : 15px;  
+}
+
+  .button {
+    display       : inline-block;
+    border-radius : 35%;          /* 角丸       */
+    font-size     : 120%;        /* 文字サイズ */
+    font-family: "kodomo";
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 9px 9px;   /* 余白       */
+    background    : #fea9a9 ;     /* 背景色     */
+    color         : #900723;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px rgb(209, 209, 209);  /* 影の設定 */
+    border        : 2px solid  #bf1f3f;    /* 枠の指定 */
+  }
+  .button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         :  #bf1f3f;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+  }

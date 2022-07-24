@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>share code</title>
+    <title>いちごどろっぷ</title>
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">        
 </head>
 
-    <body bgcolor="#fffafa" text="black">
-        <div><strong class="title">MixJuice => Share-Code</strong></div>
+    <body class="bg_skew_dot is-mix">
         
-        <div>(1)IDとシェアするコードを入力し「シェア」をクリック<br>
-        (2)下記MJコマンドに発行したIDを***に入力し実行</div>
-        <div class="ichigojam">?"MJ GETS mixjuice-share-code.herokuapp.com/?id=***"</div>
+        <div class="images">
+        <img src="/img/ichigo-drop.png" class="title" ></img>
+        <img src="/img/logo.png" class="logo"></img>
+        </div>
+
+        <div class="text">1. IDとシェアするコードを入力し「Drop」をクリック！<br>
+            2. 発行したIDを下のMJコマンドの***に入力し実行！</div>
+        <div class="ichigojam"><a href="https://fukuno.jig.jp/app/IchigoJam/#OK2%0AOK2%0ACLS%0A%0A10%20%3F%22MJ%20GETS%20mixjuice-share-code.herokuapp.com%2F%3Fid%3D***%22%0A%0A%EF%BE%81%EF%BD%AD%EF%BD%B3%EF%BD%B2%0A%20%5BI%2FO%5D%EF%BE%80%EF%BE%8C%EF%BE%9E%20%EF%BD%A6%20%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B7%E3%83%86%20%5BMixJuice%5D%20%EF%BE%86%20%EF%BE%81%EF%BD%AA%EF%BD%AF%EF%BD%B8%20%EF%BD%A6%20%EF%BD%B2%EF%BE%9A%EF%BE%83%EF%BD%B8%EF%BE%80%EF%BE%9E%EF%BD%BB%EF%BD%B2%0A%0AOK%0A" target="_blank" rel="noopener noreferrer" style="color:white; text-decoration: none;">?"MJ GETS ichigo-drop.herokuapp.com/?id=***"</a></div>
     
         <form method="POST" action="/" >
 
-            <p style="border-bottom: solid 2px; width:100%;">ID</p>
-            <textarea type="text" name="ID"  class="id" rows="1" maxlength="6" minlength="1" placeholder="発行するIDを入力" required></textarea>    
-            <p style="border-bottom: solid 2px; width:100%;">コード</p>
+            <p class="text" style="border-bottom: solid 2px; max-width:480px;">ID</p>
+            <textarea type="text" name="ID"  class="id" rows="1" maxlength="8" minlength="1" placeholder=" IDを入力（8文字まで）" required></textarea>    
+            <p class="text" style="border-bottom: solid 2px; max-width:480px;">コード</p>
 
-            <textarea type="text" name="CODE" class="ichigojam" placeholder="Input the code to share here." cols="32" rows="12" required></textarea>
-            <div><input type="submit" value="ｼｪｱ" class="button"></div>
+            <textarea type="text" name="CODE" class="ichigojam" cols="32" rows="12" required style="margin:-5px 0 0 0;" placeholder="シェアするコードを入力"></textarea>
+            <div><input type="submit" value="Drop" class="button"></div>
     
         </form>
+
+    
     </body>
 
