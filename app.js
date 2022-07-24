@@ -9,20 +9,23 @@ const cors = require("cors");
     }));
 
 const PORT = process.env.PORT || 3000;
-let command = [];
+let code = [];
 
 app.use(express.static("public"));
 
 
 app.post('/', (req, res) => {
     console.log(req.body.command);
-    command[0] = req.body.command;
-    res.send(command[0]);
+    app.set("code",req.body.command);
+    code[0] = req.body.command;
+    res.send(code[0]);
     
 });
 
 app.get('/', (req, res) => {
-    res.render("index.ejs");
+    console.log("appget:" + app.get("code"));
+    if(req.query.id == 1)res.send(app.get("code"));
+    else res.render("index.ejs");
 });
 
 
