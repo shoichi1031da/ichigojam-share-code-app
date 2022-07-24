@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IchigoJam Copy</title>
+    <title>share code</title>
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">        
 </head>
 
     <body bgcolor="#fffafa" text="black">
-        <strong class="title">mixjuice-send-code</strong>
-        <br><br>
-        (1)IchigoJamに送りたいコマンドを打ち込み「送信」をクリック。<br>
-        (2)IchigoJamでMJコマンドを実行。<br>
-        <p class="ichigojam">?"MJ GETS mixjuice-send-code.herokuapp.com/"</p>
-        <br>
+        <div><strong class="title">MixJuice => Share-Code</strong></div>
+        
+        <div>(1)IDとシェアするコードを入力し「シェア」をクリック<br>
+        (2)下記MJコマンドに発行したIDを***に入力し実行</div>
+        <div class="ichigojam">?"MJ GETS mixjuice-share-code.herokuapp.com/?id=***"</div>
     
-        <form method="post" action="/" >
-    
-          <span style="border-bottom: solid 2px;">コマンド</span><br>
-          <textarea type="text" name="command"  class="ichigojam" cols="31" rows="12" ></textarea></p>
-          <p><input type="submit" value="送信" class="button"></p>
+        <form method="POST" action="/" >
+
+            <p style="border-bottom: solid 2px; width:100%;">ID</p>
+            <textarea type="text" name="ID"  class="id" rows="1" maxlength="6" minlength="1" placeholder="発行するIDを入力" required></textarea>    
+            <p style="border-bottom: solid 2px; width:100%;">コード</p>
+
+            <textarea type="text" name="CODE" class="ichigojam" placeholder="Input the code to share here." cols="32" rows="12" required></textarea>
+            <div><input type="submit" value="ｼｪｱ" class="button"></div>
     
         </form>
-        
     </body>
 
