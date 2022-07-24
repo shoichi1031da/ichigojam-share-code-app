@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'ichigojam';
+    src: url("../font/IchigoJam-1.4.woff")format('woff');
+  }
+  
+  textarea {
+  color:white;
+  background-color: black;
+  font-size: 20px;
+  }
+  
+  .ichigojam{
+    font-family: "ichigojam";
+    white-space: pre-wrap;
+      background: #000;
+      color: white;
+      padding: .5em 1em;
+      margin: 10px 0em;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      font-size: 85%;
+      word-break: break-all;
+  }
+  p{
+    width:480px;
+  }
+  
+  .title{
+    font-size:large;
+    color:#dc143c;
+    background: linear-gradient(transparent 60%,#FFDDF4 60%);
+    padding:10px;
+    
+  }
+  .button {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 12pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 9px 9px;   /* 余白       */
+    background    : #FFDDF4 ;     /* 背景色     */
+    color         : #dc143c;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px rgb(209, 209, 209);  /* 影の設定 */
+    border        : 2px solid #dc143c;    /* 枠の指定 */
+  }
+  .button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : #dc143c;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+  }
