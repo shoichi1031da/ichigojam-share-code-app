@@ -37,7 +37,7 @@ body {
 
   .title{
     font-size:230%;
-    color: rgb(2, 53, 2);
+    color: rgb(0, 64, 0);
     font-family: 'kodomo';
     margin: 10px 10px 10px 0;
  
@@ -133,8 +133,9 @@ footer{
   }
   .button:hover {
     box-shadow    : none;        /* カーソル時の影消去 */
-    color         :  #bf1f3f;     /* 背景色     */
-    background    : #ffffff;     /* 文字色     */
+    color         :  white;     /* 背景色     */
+    background    : #900723;     /* 文字色     */
+    border : 2px solid #900723
   }
 
   #cr {
