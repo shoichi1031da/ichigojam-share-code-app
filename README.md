@@ -1,13 +1,13 @@
-# mixjuice-share-code-app
-https://ichigo-droo.herokuapp.com/
+# IchigoJamのコードをその場で共有するwebアプリ「いちごどろっぷ（IchigoDrop）」
 
-IchigoJamでコピーアンドペーストを擬似的に実現！
+## https://ichigo-droo.herokuapp.com/
+
+webアプリ上に貼り付けたIchigoJamのコードを、MixJuiceを使って読み込むことができます。
 
 講座などで長いプログラムを配布する際や、個人利用でも便利です。
 
 IDは1文字〜6文字まで任意に選べます。IDが重複すると新しい方にコードが上書きされます。
 
-今後、データベースにIDを保存して、重複していたら弾くようにしたいです。
 
 ＜デモ動画＞
 
