@@ -53,8 +53,6 @@ IchigoJam側にシェアしたいコードを入力してください。
 
 <img src="https://github.com/shoichi1031da/ichigojam-share-code-app/blob/main/document/6.png" alt="get" title="MJ GET">
 
-（シェアしたコード）
-
 パラメータのidに、2で発行したIDを入力して実行してください。
 
 シェアされたコードを取得できます。
