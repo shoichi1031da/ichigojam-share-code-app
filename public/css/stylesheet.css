@@ -29,25 +29,31 @@ body {
   radial-gradient(#ffe3e3 20%, transparent 20%);
 }
 
+
+
 .images{
   display:flex;
 }
 
   .title{
-    margin: 10px 0 10px 0;
-    width: 70%;
-    height: 70%;
+    font-size:230%;
+    color: rgb(0, 64, 0);
+    font-family: 'kodomo';
+    margin: 10px 10px 10px 0;
+ 
   }
 
   .logo{
     margin:0 0 0 -5px;
     width:12%;
     height:12%;
+    max-width: 60px;
     
   }
 
 .text{
   font-family: "kodomo";
+  font-size: .85em;
   color:rgb(54, 54, 54);
 }
 
@@ -62,10 +68,13 @@ body {
     
   }
 
+
   .ichigojam{
     font-family: "ichigojam";
     white-space: pre-wrap;
-    max-width: 450px;
+    max-width: 400px;
+    min-width: 200px;
+    width:92%;
     
     background: rgb(77, 6, 6);
     /* background: linear-gradient(0deg, rgba(179,28,151,1) 0%, rgba(244,111,168,1) 100%); */
@@ -103,6 +112,9 @@ body {
   font-size     : 15px;  
 }
 
+footer{
+  display: flex;
+}
   .button {
     display       : inline-block;
     border-radius : 35%;          /* 角丸       */
@@ -110,6 +122,7 @@ body {
     font-family: "kodomo";
     text-align    : center;      /* 文字位置   */
     cursor        : pointer;     /* カーソル   */
+    margin: 10px 0 0 0;
     padding       : 9px 9px;   /* 余白       */
     background    : #fea9a9 ;     /* 背景色     */
     color         : #900723;     /* 文字色     */
@@ -120,6 +133,14 @@ body {
   }
   .button:hover {
     box-shadow    : none;        /* カーソル時の影消去 */
-    color         :  #bf1f3f;     /* 背景色     */
-    background    : #ffffff;     /* 文字色     */
+    color         :  white;     /* 背景色     */
+    background    : #900723;     /* 文字色     */
+    border : 2px solid #900723
+  }
+
+  #cr {
+    color:gray;
+    font-size:50%;
+    align-self: center;
+    text-align: center;
   }

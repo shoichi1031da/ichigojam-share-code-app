@@ -1,38 +1,14 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
-    app.use(bodyParser.urlencoded({ extended: false }));
-    app.use(bodyParser.json()); 
+const PORT = process.env.PORT || 3000;
 
 const cors = require("cors");
     app.use(cors({
         origin: "https://fukuno.jig.jp",
     }));
 
-const PORT = process.env.PORT || 3000;
-let CODE = [];
-
 app.use(express.static("public"));
-
-// http.createServer((req,res) => {
-//     if(req.method === "GET"){
-//         if(!req.body){
-//             console.log("GETリクエスト");
-//             res.end(html);
-//         }
-//         else if(!id && req.query.id == app.get("ID")){
-//             res.send(app.get("CODE"));
-//         }
-
-//     } else if(req.method === "POST"){
-//         console.log("CODE:" + req.body.CODE);
-//         console.log("ID:" + req.query.ID);
-//         app.set("CODE",req.body.CODE);
-//         app.set("ID",req.query.ID);
-//         res.send(req.query.CODE);
-//     }
-
-// }).listen(PORT);
+app.use(express.urlencoded({ extended: false }));
 
 app.post('/', (req, res) => {
     console.log(req.body);
