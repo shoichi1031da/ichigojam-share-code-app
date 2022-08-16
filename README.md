@@ -1,5 +1,5 @@
 # IchigoJamのコードをその場で共有するwebアプリ「いちごどろっぷ（IchigoDrop）」
-## https://ichigo-droo.herokuapp.com/
+## https://ichigo-drop.herokuapp.com/
 
 webアプリ上に貼り付けたIchigoJamのコードを、MixJuiceを使って読み込むことができます。
 
