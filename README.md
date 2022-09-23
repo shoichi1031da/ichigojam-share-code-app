@@ -1,5 +1,5 @@
 # IchigoJamのコードをその場で共有するwebアプリ「いちごどろっぷ（IchigoDrop）」
-## https://ichigo-drop.herokuapp.com/
+## https://ichigojam.top/drop/
 
 webアプリ上に貼り付けたIchigoJamのコードを、MixJuiceを使って読み込むことができます。
 
@@ -21,6 +21,8 @@ https://twitter.com/shoichi1031da/status/1551298625099436032
 コードをクリックすると
 
 <img src="https://github.com/shoichi1031da/ichigojam-share-code-app/blob/main/document/1.png" alt="メインコード" title="main code">
+
+(上の画像ではドメインがherokuになっていますが、現在はichigojam.topに変更になりました)
 
 プログラムが読み込まれた状態でIchigoJam webが開きます。
 「MixJuice」にチェックを入れてください。
@@ -52,6 +54,10 @@ IchigoJam側にシェアしたいコードを入力してください。
 ### 4. IchigoJam側からGETメソッドでリクエストを送り、コードを取得する
 
 <img src="https://github.com/shoichi1031da/ichigojam-share-code-app/blob/main/document/6.png" alt="get" title="MJ GET">
+
+※herokuではなくichigojam.topにGETリクエストを送ってください。
+
+?"MJ GETS ichigojam.top/drop/?***"
 
 パラメータのidに、2で発行したIDを入力して実行してください。
 
