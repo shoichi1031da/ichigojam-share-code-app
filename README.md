@@ -57,7 +57,7 @@ IchigoJam側にシェアしたいコードを入力してください。
 
 ※herokuではなくichigojam.topにGETリクエストを送ってください。
 
-?"MJ GETS ichigojam.top/drop/?***"
+?"MJ GETS ichigojam.top/drop/?id=***"
 
 パラメータのidに、2で発行したIDを入力して実行してください。
 
