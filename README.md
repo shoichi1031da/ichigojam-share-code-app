@@ -6,7 +6,7 @@ webアプリ上に貼り付けたIchigoJamのコードを、MixJuiceを使って
 講座などで長いプログラムを配布する際や、個人利用でも便利です。
 
 ## ■デモ動画
-https://twitter.com/shoichi1031da/status/1551298625099436032
+https://youtu.be/E5CjrZxuQcY
 
 ## ■必要なもの
 
