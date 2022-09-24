@@ -33,11 +33,10 @@ https://youtu.be/E5CjrZxuQcY
 
 <img src="https://github.com/shoichi1031da/ichigojam-share-code-app/blob/main/document/3.png" alt="ID" title="ID">
 
-IchigoJamで使える文字を8文字までで設定します。
+英数字8文字までで設定します。すでに使えわれているIDを重複して使えません。
 
 （ここでは「testID」とします）
 
-もし他のユーザーとIDが被った場合は、後にIDを設定した方が優先されます。
 
 ### 3. シェアしたいコードを貼り付けて「Drop」をクリック
 
